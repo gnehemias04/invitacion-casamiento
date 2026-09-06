@@ -18,7 +18,7 @@ function Story() {
           volvieron a cruzarse. Y en ese reencuentro nació una pequeña chispa
           que, sin darnos cuenta, se convirtió en amor. <br />
         </p>
-        <img className=" w-[75%] mx-auto mt-8 " src="cine.jpeg" alt="" />
+        <img className="  mt-8 " src="propuesta1.jpeg" alt="" />
         <p className="mt-8 text-lg leading-relaxed text-gray-600">
           Desde entonces compartimos risas, sueños y aventuras. Crecimos y
           aprendimos muchísimo el uno del otro, aunque sabemos que todavía nos
