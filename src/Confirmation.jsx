@@ -14,7 +14,7 @@ function Confirmation() {
           Confirmación
         </p>
 
-        <h2 className="font-great-vibes text-5xl text-gray-900 md:text-6xl">
+        <h2 className="font-great-vibes text-5xl text-[#7D1329] md:text-6xl">
           ¿Nos acompañás?
         </h2>
 
@@ -26,8 +26,7 @@ function Confirmation() {
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 inline-block rounded-full bg-pink-700 px-8 py-3 text-white shadow-md transition hover:scale-105"
-        >
+          className="mt-8 inline-block rounded-full bg-[#7D1329] px-8 py-3 text-white shadow-md transition hover:scale-105">
           Confirmar asistencia 💕
         </a>
       </div>
