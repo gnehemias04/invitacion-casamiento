@@ -5,6 +5,7 @@ import Hero from "./components/hero";
 import Story from "./components/Story";
 import Event from "./Event";
 import Confirmation from "./Confirmation";
+import Gifts from "./components/payments";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Story />
         <Event />
+        <Gifts />
         <Confirmation />
       </section>
     </>

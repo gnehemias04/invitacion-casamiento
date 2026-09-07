@@ -24,12 +24,10 @@ function Story() {
           aprendimos muchísimo el uno del otro, aunque sabemos que todavía nos
           queda mucho por aprender y disfrutar juntos. <br />Y después de todo
           lo vivido, tomamos una decisión bastante importante: <br />
-          elegirnos para toda la vida. <br />
-          Así que acá estamos, listos para comenzar nuestra mejor aventura…
-          juntos, para siempre... <br />
-          Quién diría que aquella pequeña chispa terminaría en un “sí, acepto”.{" "}
+          "Elegirnos para toda la vida y la eternidad." <br />
+          Nos gustaría que puedas comprtir este gran y especial momento con
+          nosotros.
           <br />
-          ¡Queremos celebrarlo con ustedes! <br />
         </p>
       </div>
     </section>

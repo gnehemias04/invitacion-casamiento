@@ -51,12 +51,8 @@ function Event() {
   return (
     <section className="bg-[url('/bg1.png')] bg-cover px-6 py-20">
       <div className="mx-auto max-w-4xl text-center">
-        <p className="mb-3 text-sm uppercase tracking-[0.3em] text-pink-700">
-          El gran día
-        </p>
-
         <h2 className="font-great-vibes text-5xl text-[#7D1329] md:text-6xl">
-          Fecha y lugar
+          El gran dia...
         </h2>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
@@ -66,7 +62,7 @@ function Event() {
 
             <p className="mt-4 text-lg text-gray-700">16 de Octubre de 2026</p>
 
-            <p className="mt-2 text-gray-500">21:00 hs</p>
+            <p className="mt-2 text-gray-500">20:30 hs</p>
             <img
               src="/schedule.png"
               alt=""
