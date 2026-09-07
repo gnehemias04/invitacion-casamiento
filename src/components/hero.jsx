@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+/*Hero */
 
 function Hero() {
   const audioRef = useRef(null);
