@@ -30,7 +30,7 @@ function Hero() {
           Yamila y Elias
         </h1>
         <p className="mb-2 text-sm uppercase tracking-[0.3em] text-pink-700">
-          19/10/2026
+          16/10/2026
         </p>
       </div>
 
