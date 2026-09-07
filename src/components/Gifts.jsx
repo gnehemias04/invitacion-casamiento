@@ -27,7 +27,7 @@ function Gifts() {
           {" "}
           Regalos{" "}
         </p>{" "}
-        <h2 className="font-great-vibes text-5xl text-gray-900 md:text-6xl">
+        <h2 className="font-great-vibes text-5xl text-[#7D1329] md:text-6xl">
           {" "}
           Un detalle para nosotros{" "}
         </h2>{" "}
