@@ -1,11 +1,10 @@
 import { useState } from "react";
-import viteLogo from "./assets/vite.svg";
 import "./App.css";
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import Story from "./components/Story";
-import Event from "./Event";
-import Confirmation from "./Confirmation";
-import Gifts from "./components/payments";
+import Event from "./components/Event";
+import Confirmation from "./components/Confirmation";
+import Gifts from "./components/Gifts";
 function App() {
   const [count, setCount] = useState(0);
 

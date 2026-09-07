@@ -1,12 +1,21 @@
 import { useState } from "react";
 function Gifts() {
   const [copied, setCopied] = useState(false);
+  const [copiedCbu, setCopiedCbu] = useState(false);
   const alias = "elias-ems";
+  const cbu = "0000003100021732693283";
   const copyAlias = () => {
     navigator.clipboard.writeText(alias);
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
+    }, 2000);
+  };
+  const copyCbu = () => {
+    navigator.clipboard.writeText(cbu);
+    setCopiedCbu(true);
+    setTimeout(() => {
+      setCopiedCbu(false);
     }, 2000);
   };
   return (
@@ -78,7 +87,16 @@ function Gifts() {
               <div>
                 {" "}
                 <span className="font-semibold text-gray-800"> CBU: </span>{" "}
-                <p>0000003100021732693283</p>{" "}
+                <div className="mt-1 flex items-center gap-2">
+                  {" "}
+                  <span>{cbu}</span>{" "}
+                  <button
+                    onClick={copyCbu}
+                    className="rounded-full bg-pink-100 px-3 py-1 text-xs text-pink-700 transition hover:bg-pink-200">
+                    {" "}
+                    {copiedCbu ? "¡Copiado!" : "Copiar"}{" "}
+                  </button>{" "}
+                </div>{" "}
               </div>{" "}
             </div>{" "}
           </div>{" "}
@@ -88,5 +106,4 @@ function Gifts() {
     </section>
   );
 }
-
 export default Gifts;
