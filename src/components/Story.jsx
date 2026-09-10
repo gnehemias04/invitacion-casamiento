@@ -23,7 +23,8 @@ function Story() {
           Desde entonces compartimos risas, sueños y aventuras. Crecimos y
           aprendimos muchísimo el uno del otro, aunque sabemos que todavía nos
           queda mucho por aprender y disfrutar juntos. <br />Y después de todo
-          lo vivido, la decisión mas importante de nuestras vidas: <br />
+          lo vivido, tomamos la decisión mas importante de nuestras vidas:{" "}
+          <br />
           "Elegirnos para toda la vida y toda eternidad." <br />
           Nos gustaría que puedas compartir este gran y especial momento con
           nosotros.
